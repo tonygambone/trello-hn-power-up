@@ -1,0 +1,23 @@
+{
+  "name": "Hacker News",
+  "description": "",
+  "details": "Track Hacker News stories on a Trello board",
+  "icon": {
+    "url": "./images/hn-icon-lg.png"
+  },
+  "author": "Tony Gambone",
+  "capabilities": [
+    "card-from-url",
+    "card-badges",
+    "callback",
+    "format-url"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  },
+  "recommend": {
+    "urls": []
+  }
+}
